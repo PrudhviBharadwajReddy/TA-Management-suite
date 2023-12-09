@@ -1,0 +1,11 @@
+{
+    "Driver": "{ODBC Driver 17 for SQL Server}",
+    "ServerName": "devdbinstance01.database.windows.net",
+    "DatabaseName": "TAManagementSuite",
+    "UserID": "ServerAdminPro",
+    "Password": "S3cure#Adm!nPr0",
+    "Encrypt": "yes",
+    "TrustServerCertificate": "no",
+    "ConnectionTimeout": 130,
+    "Tables" : {"teaching_assistant_applicants": "TA_Applicants"}
+}

@@ -1,0 +1,167 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+}
+
+.container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.header-links a {
+    color: #004B8D;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    color: #004B8D;
+    border-bottom: 2px solid #004B8D;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+
+.action-button {
+    background-color: #004B8D;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.action-button:hover {
+    background-color: #003366;
+}
+
+.help-links {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.help-links a {
+    color: #004B8D;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%; /* Ensure footer is full width */
+    position: relative; /* Changed from absolute to relative */
+    bottom: 0;
+    left: 0;
+}
+
+.logo {
+    width: 100px; /* Increase the width to make the logo bigger */
+    height: auto; /* Maintain the aspect ratio */
+    margin-bottom: 20px;
+}
+
+
+/* If you need a section with a different background like new-account, you can define it like this: */
+.alternate-section {
+    background-color: #e7f1ff;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.alternate-section p {
+    margin: 15px 0;
+}
+
+.alternate-section a {
+    color: #004B8D;
+    text-decoration: none;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003366;
+    color: white;
+    padding: 0.5em 1em;
+    font-size: 1rem;
+  }
+  
+  .nav-links button {
+    background: none;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-family: 'PT Sans Caption', sans-serif;
+    cursor: pointer;
+  }
+  
+  .nav-links button:hover {
+    text-decoration: underline;
+  }
+  
+  
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+    background-color: #0055A4;
+    border-radius: 5px;
+    cursor: pointer; /* Ensures the cursor is correct for all nav links */
+  }
+  
+  .nav-links a:hover {
+    background-color: #004B8D;
+    text-decoration: underline;
+  }
+  
+  
+  
+  .container {
+    padding: 20px;
+    flex-grow: 1;
+  }
+  
+  /* Continue with the rest of your CSS */
+  
